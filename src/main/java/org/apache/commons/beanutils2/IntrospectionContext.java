@@ -49,10 +49,10 @@ public interface IntrospectionContext {
     void addPropertyDescriptors(PropertyDescriptor[] descriptors);
 
     /**
-     * Returns the descriptor for the property with the given name or <strong>null</strong> if this property is unknown.
+     * Returns the descriptor for the property with the given name or {@code null} if this property is unknown.
      *
      * @param name the name of the property in question
-     * @return the descriptor for this property or <strong>null</strong> if this property is unknown
+     * @return the descriptor for this property or {@code null} if this property is unknown
      */
     PropertyDescriptor getPropertyDescriptor(String name);
 
